@@ -108,7 +108,9 @@ nav > img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 4rem;
 }
+
 #skills > section > div {
     display: flex;
     flex-direction: column;
@@ -119,19 +121,35 @@ nav > img {
     background-color:  rgb(13, 13, 13);
 }
 
-#skills > section > div img {
+.skills__technologies {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 2rem;
+}
+
+#skills img {
     height: 3rem;
     width: 3rem;
 }
 
-#skills > section > div span {
-    margin-top: 2rem;
+#skills p {
+    font-weight: 600;
 }
 
-#skills > section > div span {
-    margin-top: 1rem;
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    margin: 0rem 5rem 0 5rem;
 }
 
+#projects > span {
+    color: rgba(255, 255, 255, 0.867);
+    font-weight: 600;
+    text-align: center;
+}
 
 @media screen and (min-width: 758px){
     #hamburger {
