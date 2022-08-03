@@ -244,4 +244,9 @@ nav > img {
         margin-top: 45rem;
         margin-bottom: 5rem;
     }
+
+    #projects img {
+        object-fit: inherit;
+        height: 10rem;
+    }
 }
