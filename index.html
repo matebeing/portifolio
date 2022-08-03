@@ -17,9 +17,10 @@
             <div class="line"></div>
         </div>
         <li id="nav-links">
-            <ul>Home</ul>
-            <ul>About me</ul>
-            <ul>Contact</ul>
+            <ul><a href="#introduction">Home</a></ul>
+            <ul><a href="#about-me">About me</a></ul>
+            <ul><a href="#projects">Projects</a></ul>
+            <ul><a href="#contact">Contact</a></ul>
         </li>
         <img  src="./images/memoji2.webp" alt="memoji using the notebook." />
     </nav>
@@ -29,14 +30,14 @@
         <span>RESUME 🔗</span>
     </section>
     <section id="about-me">
-        <span>ABOUT ME</span>
+        <span role="heading">ABOUT ME</span>
         <div>
             <img src="./images/memoji1.webp" alt="memoji wearing glasses, blinking and smiling."/>
             <p>Hey — I'm a <strong>self-taught web developer.</strong> Based in Rio de Janeiro - Brazil. I like to challenge myself to seek new knowledges and I'm voraciously in urge on learning new languages and web development.</p>
         </div>
     </section>
     <section id="skills">
-        <span>SKILLS</span>
+        <span role="heading">SKILLS</span>
         <section>
             <div>
                 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/apple/325/man-technologist-dark-skin-tone_1f468-1f3ff-200d-1f4bb.png" alt="/man-technologist-dark-skin-tone" />
@@ -66,7 +67,7 @@
         </section>
     </section>
     <section id="projects">
-        <span>PROJECTS</span>
+        <span role="heading">PROJECTS</span>
         <section>
             <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/zr3ylortgfxg6obwpdl4.jpg" />
             <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/mf13e6is6s0mayrlmg3v.jpg" />
@@ -76,6 +77,37 @@
         </section>
     </section>
 
+    <section id="contact">
+        <span role="heading">Contact Me</span>
+
+        <section>
+            <div>
+                <ion-icon name="mail-outline"></ion-icon>
+                <p>matheusoliveira18rj@gmail.com</p>
+            </div>
+            <a href="https://twitter.com/matebeing" target="_blank" rel="noopener noreferrer">
+                <div>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <p>@matebeing</p>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/matheusoliveira0/" target="_blank" rel="noopener noreferrer">
+                <div>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <p>@matheusoliveira0</p>
+                </div>
+            </a>
+            <a href="https://github.com/matebeing" target="_blank" rel="noopener noreferrer">
+                <div>
+                    <ion-icon name="logo-github"></ion-icon>
+                    <p>@matebeing</p>
+                </div>
+            </a>
+        </section>
+    </section>
+
     <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

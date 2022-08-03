@@ -11,3 +11,4 @@ sr.reveal('#introduction', { duration: 4500 });
 sr.reveal('#about-me', {delay: 1000, duration: 3000 });
 sr.reveal('#skills', {delay: 1000, duration: 3000 });
 sr.reveal('#projects', {delay: 1000, duration: 3000 });
+sr.reveal('#contact', {delay: 1000, duration: 3000 });

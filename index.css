@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,12 +13,19 @@ body {
     width: 98vw;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit; 
+    text-align: inherit;
+}
+
 nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: 0 5rem 0 5rem;
+    background-color: #000;
 }
 
 li {
@@ -177,6 +188,43 @@ nav > img {
     width: 10rem;
 }
 
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+#contact span {
+    color: #9d6fff;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#contact > section {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+#contact > section > div, a > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ion-icon {
+    height: 3rem;
+    width: 3rem;
+}
+
+
+
 @media screen and (min-width: 758px){
     #hamburger {
         display: none;
@@ -259,5 +307,13 @@ nav > img {
     #projects img {
         object-fit: inherit;
         height: 10rem;
+    }
+
+    #contact {
+        margin-top: 20rem;
+        margin-bottom: 20rem;
+    }
+    #contact > section {
+        flex-direction: column;
     }
 }
