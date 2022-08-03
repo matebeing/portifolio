@@ -160,6 +160,7 @@ nav > img {
 }
 
 #projects img {
+    object-fit: cover;
     flex: 25%;
     height: 15rem;
     width: 10rem;
