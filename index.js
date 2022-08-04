@@ -12,3 +12,4 @@ sr.reveal('#about-me', {duration: 3000 });
 sr.reveal('#skills', {duration: 3000 });
 sr.reveal('#projects', {duration: 3000 });
 sr.reveal('#contact', { duration: 3000 });
+sr.reveal('.scrollreveal', {duration: 3500})
