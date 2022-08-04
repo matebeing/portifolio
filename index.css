@@ -344,13 +344,22 @@ ion-icon {
         margin: 0;
         margin-top: 5rem;
     }
+
+    #about-me__block p {
+        width: 90%;
+        
+    }
+
     #about-me > div {
         flex-direction: column;
         font-size: 1.5em;
         padding: 1rem;
     }
+    #about-me picture {
+        margin-right: 0;
+    }
     #about-me img {
-        height: 5rem;
+        height: 10rem;
     }
 
     #skills  {
