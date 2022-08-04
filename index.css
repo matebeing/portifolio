@@ -241,6 +241,7 @@ nav > img {
 
 
 .projects__item > img {
+    object-fit: cover;
     width: 100%;
 }
 
