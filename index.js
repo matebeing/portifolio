@@ -8,7 +8,7 @@ hamburger.addEventListener("click", () => {
 window.sr = ScrollReveal({ reset: false });
 
 sr.reveal('#introduction', { duration: 4500 });
-sr.reveal('#about-me', {delay: 1000, duration: 3000 });
-sr.reveal('#skills', {delay: 1000, duration: 3000 });
-sr.reveal('#projects', {delay: 1000, duration: 3000 });
-sr.reveal('#contact', {delay: 1000, duration: 3000 });
+sr.reveal('#about-me', {duration: 3000 });
+sr.reveal('#skills', {duration: 3000 });
+sr.reveal('#projects', {duration: 3000 });
+sr.reveal('#contact', { duration: 3000 });
