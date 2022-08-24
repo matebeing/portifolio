@@ -70,7 +70,6 @@ ul {
     text-align: center;
     background: radial-gradient(25em 20em at center, #733de7c9, #000);
     min-height: 100vh;
-    animation: animate 15s ease infinite
 }
 
 #introduction > a {
